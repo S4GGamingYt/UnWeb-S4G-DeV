@@ -1,5 +1,1 @@
-<style>
-  @import url('https://fonts.cdnfonts.com/css/alsina');
-</style>
-
-<h1 style="font-family: 'Alsina', sans-serif;">Just a Website I made....</h1>
+<img width="1500" height="500" alt="Heading" src="https://github.com/user-attachments/assets/fd9a8c3b-e217-4183-a1e4-7c8fc75fa57e" />
