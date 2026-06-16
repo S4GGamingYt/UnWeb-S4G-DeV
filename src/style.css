@@ -96,7 +96,7 @@ body {
   z-index: -1;
 }
 
-button {
+.btn-web {
   background-color: transparent;
   color: #fb5c02;
   border: 2px solid #fb5c02;
