@@ -1,5 +1,3 @@
-import './style.css'
-
 const canvas = document.getElementById("grid");
 const ctx = canvas.getContext("2d");
 
