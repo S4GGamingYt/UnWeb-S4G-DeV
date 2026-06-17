@@ -134,7 +134,7 @@ footer{
   border-radius: 5px;
   width: 98%;
   margin: 0 auto;
-  height: 450px;
+  height: 480px;
   margin-top: 5rem;
   margin-bottom: 1rem;
   color: #f0f0f07c;
@@ -142,15 +142,15 @@ footer{
 }
 
 footer h1{
-  font-size: 450%;
+  font-size: 15vh;
 }
 
 footer h2{
-  font-size: 200%;
+  font-size: 9vh;
 }
 
 footer p{
-  font-size: 150%;
+  font-size: 4vh;
 }
 
 footer a{
