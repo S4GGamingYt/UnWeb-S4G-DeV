@@ -1,5 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/alsina");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=VT323&display=swap'); /* Jetbrains and VT323 Font Cdn. */
 
 body {
   background-color: #1a1a1a;
@@ -28,6 +27,7 @@ body {
   box-shadow: 0px 0px 25px rgba(252, 93, 1, 0.418);
   top: 0.5rem;
   position: sticky;
+  z-index: 2;
 }
 
 .cursor {
@@ -113,16 +113,95 @@ body {
 
 .itch:hover{
   color: black;
-  background-color: rgba(194, 9, 9, 0.5);
-  border: 2px solid black;
-  box-shadow: 0 0 25px rgba(194, 9, 9, 0.5);
+  background-color: rgb(194, 9, 9);
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-shadow: 0 0 25px rgb(194, 9, 9);
   transform: scale(1.25);
 }
 
 .github:hover{
   color: black;
-  background-color: rgba(255, 250, 250, 0.5);
+  background-color: rgb(255, 250, 250);
   border: 2px solid black;
   box-shadow: 0 0 25px #1a1a1a;
   transform: scale(1.25);
+}
+
+footer{
+  font-family: 'VT323', monospace;
+  background-color: #1a1a1a;
+  border: 2px solid #fb5c02;
+  border-radius: 5px;
+  width: 98%;
+  margin: 0 auto;
+  height: 450px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  color: #f0f0f07c;
+  text-shadow: 0 0 25px #f0f0f07c;
+}
+
+footer h1{
+  font-size: 5vw;
+}
+
+footer h2{
+  font-size: 3vw;
+}
+
+footer p{
+  font-size: 2vw;
+}
+
+footer a{
+  text-decoration: underline #fad6d67c;
+  color: #f0f0f07c;
+}
+
+.footer-btn{
+  background-color: transparent;
+  color: #fb5c02;
+  border: 2px solid #fb5c02;
+  border-radius: 0.5rem;
+  width: 55px;
+  height: 50px;
+  max-width: 150px;
+  font-size: 120%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 25px rgba(252, 92, 1, 0.418);
+  transition: all 0.2s ease;
+}
+
+.footer-itch:hover{
+  color: black;
+  background-color: #c20909;
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-shadow: 0 0 25px rgb(194, 9, 9);
+  transform: scale(1.25);
+}
+
+.footer-github:hover{
+  color: black;
+  background-color: rgb(255, 250, 250);
+  border: 2px solid black;
+  box-shadow: 0 0 25px #1a1a1a;
+  transform: scale(1.25);
+}
+
+.itch-icon,
+.github-icon {
+  filter: brightness(0) invert(1);
+  transition: filter 0.2s ease;
+}
+
+.itch:hover .itch-icon,
+.github:hover .github-icon {
+  filter: brightness(0);
+}
+
+.footer-socials{
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem; 
 }

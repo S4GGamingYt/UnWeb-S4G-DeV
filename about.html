@@ -17,14 +17,15 @@
     <title>About | UnWeb</title>
   </head>
   <body>
-
     <!-- Canvas(Grid)... -->
     <canvas id="grid"></canvas>
 
     <!-- Navbar... -->
     <nav class="navbar navbar-expand-lg transparent" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Un<element class="secondary-color">Web</element></a>
+        <a class="navbar-brand" href="./index.html"
+          >Un<element class="secondary-color">Web</element></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -39,10 +40,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about-DeV.html">About-DeV</a>
             </li>
           </ul>
         </div>
@@ -51,21 +57,78 @@
 
     <!-- Main Content... -->
     <div class="text-center">
-      <h1 class="text-center heading">About</h1>
+      <h1 class="text-center heading" style="margin-top: 2rem">About</h1>
       <span class="cursor secondary-color">|</span>
     </div>
 
     <!--Brief Description Card... -->
-    <div class="card" style="margin-top: 2rem; max-width: 1000px; height: 349px">
+    <div
+      class="card"
+      style="margin-top: 2rem; max-width: 1000px; height: 349px"
+    >
       <img
         src="./public/icon.png"
         class="img-fluid card-img"
         alt="Brief Description"
       />
       <p class="description">
-        UnWeb is a website made by S4G DeV, designed for practising web development skills and getting to know more. You can explore this website, view the source code on github or even use this as a template... (might want to give credits ig.)
+        UnWeb is a website made by S4G DeV, designed for practising web
+        development skills and getting to know more. You can explore this
+        website, view the source code on github or even use this as a
+        template... (might want to give credits ig.)
       </p>
     </div>
+
+    <!-- Footer -->
+    <footer>
+      <h1 class="text-center my-3">End of Page.</h1>
+      <div>
+        <h2 class="ms-3">UNWEB/</h2>
+        <p class="ms-3">├─&nbsp;<a href="./index.html">Home</a></p>
+        <p class="ms-3" style="margin-top: -21px">
+          ├─&nbsp;<a href="./about.html">About</a>
+        </p>
+        <p class="ms-3" style="margin-top: -21px">
+          └─&nbsp;<a href="./about-DeV.html">About DeV</a>
+        </p>
+      </div>
+      <div class="footer-socials">
+        <a
+          href="https://s4g-dev.itch.io/"
+          class="btn footer-btn footer-itch itch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./public/itch.svg"
+            class="itch-icon"
+            alt="Itch-icon"
+            width="95%"
+            class="itch-icon"
+          />
+        </a>
+        <a
+          href="https://github.com/S4GGamingYt"
+          class="btn footer-btn footer-github github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./public/github.svg"
+            class="github-icon"
+            alt="Github-icon"
+            width="95%"
+            class="github-icon"
+          />
+        </a>
+      </div>
+      <p class="fs-6 text-center">
+        &copy;2026 Copyright S4G Industries. All Rights Reserved (jk)
+      </p>
+      <p class="fs-6 text-center" style="margin-top: -15px">
+        also try my game pls.. :P
+      </p>
+    </footer>
 
     <!-- Scripts -->
     <script type="module" src="./src/main.js"></script>
